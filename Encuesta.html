@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos.css/Styles.css">
+    <script src="Encuesta.js"></script>
+    <title>Cuestionario sobre HTML, CSS y JavaScript</title>
+</head>
+<body class="Body1">
+    <h2 class="Txt">Cuestionario sobre HTML, CSS y JavaScript</h2>
+    <form id="miFormulario0" class="miForm">
+        <div class="Pregunta">
+            <h4>¿Que significa HTML?</h4>
+            <input type="radio" name="p1" value="A"> A) HyperText Markup Language<br>
+            <input type="radio" name="p1" value="B"> B) High Text Manipulation Language<br>
+            <input type="radio" name="p1" value="C"> C) Hyperlink Text Markup Langage<br>
+            <input type="radio" name="p1" value="D"> D) Hyper Text Mangament Language<br>
+        </div>
+
+        <div class="Pregunta">
+            <h4>¿El elemento <div> se utiliza para agrupar contenido en un contenedor genérico?</h4>
+            <input type="radio" name="p2" value="A"> A) Verdadero<br>
+            <input type="radio" name="p2" value="B"> B) Falso<br>
+        </div>
+
+        <div class="Pregunta">
+            <h4>¿Cuál de las siguientes etiquetas se utilizan para definir un encabezado de nivel 1 en HTML?</h4>
+            <input type="radio" name="p3" value="A"> A) h1 <br>
+            <input type="radio" name="p3" value="B"> B) head> <br>
+            <input type="radio" name="p3" value="C"> C) header><br>
+        </div>
+
+        <div class="Pregunta">
+            <h4>¿Cuál de los siguientes métodos de JavaScript se utiliza para convertit una cadena de texto en minúsculas?</h4>
+            <input type="radio" name="p4" value="A"> A) toUpperCase <br>
+            <input type="radio" name="p4" value="B"> B) toLowerCase<br>
+            <input type="radio" name="p4" value="C"> C) split<br>
+        </div>
+
+        <div class="Pregunta">
+            <h4>¿Qué evento de JavaScript se utiliza para ejecutar una función cuando el usuario hace clic en un elemento HTML?</h4>
+            <input type="radio" name="p5" value="A"> A) `onchange`<br>
+            <input type="radio" name="p5" value="B"> B) `onclick`<br>
+            <input type="radio" name="p5" value="C"> C) `onmouseover`<br>
+        </div>
+
+        <button class="B3" type="button" onclick="calcularResultado()">Calcular Resultado</button>
+    </form>
+
+    <div id="resultado" class="Cuadro"></div>
+    <div id="evaluacion" class="Cuadro1"></div>
+
+    

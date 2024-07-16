@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos.css/Styles.css">
+    <script defer src="formulario.js"></script>
+    <title>Formulario</title>
+</head>
+<body class="Body2">
+    <div class="Formulario" id="Formul">
+        <p class="Formu">FORMULARIO</p>
+        <form id="miFormulario">
+            <p>Nombre completo:</p>
+            <input class="input2" type="text" id="nombre" name="nombre" placeholder="Dos nombres, dos apellidos"><br>
+            <p id="nombre-error" class="hidden error-message"></p>
+
+            <p>Género:</p>
+            <input class="input2" type="text" id="genero" name="genero" placeholder="*" readonly>
+            <p id="genero-error" class="hidden error-message"></p>
+            <select id="selectGenero" name="selectGenero" >
+                <option value="">Seleccione una opción</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Otro">Otro</option>
+            </select><br>
+            
+            <p>Edad:</p>
+            <input class="input2" type="number" id="edad" name="edad" placeholder="Ejemplo 24" ><br>
+            <p id="edad-error" class="hidden error-message"></p>
+
+            <p>Correo electrónico:</p>
+            <input class="input2" type="email" id="correo" name="correo" placeholder="Ejemplo: example@gmail.com" ><br>
+            <p id="correo-error" class="hidden error-message"></p>
+
+            <p>País de residencia:</p>
+            <input class="input2" type="text" id="pais" name="pais" readonly>
+            <p id="pais-error" class="hidden error-message"></p>
+            <select id="selectPais" name="selectPais" >
+                <option value="">Seleccione un país</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Chile">Chile</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Perú">Perú</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Venezuela">Venezuela</option>
+            </select><br>
+
+            <p>Gustos/Hobbies:</p>
+            <input class="input2" type="text" id="gustos" name="gustos" placeholder="Ejemplo: pintar, dibujar, etc." ><br>
+            <p id="gustos-error" class="hidden error-message"></p>
+
+            <p>Elegir curso:</p>
+            <label>
+                <input type="radio" name="curso" value="Matemática"> Matemática
+            </label><br>
+            <label>
+                <input type="radio" name="curso" value="Lenguaje"> Lenguaje
+            </label><br>
+            <label>
+                <input type="radio" name="curso" value="Ingles"> Inglés
+            </label><br>
+            <label>
+                <input type="radio" name="curso" value="Programacion"> Programación
+            </label><br>
+
+            <p>Número de horas:</p>
+            <label>
+                <input id="V1" type="radio" name="horas" value="10" onclick="CalcularCosto()"> 10 horas
+            </label><br>
+            <label>
+                <input id="V2" type="radio" name="horas" value="20" onclick="CalcularCosto()"> 20 horas
+            </label><br>
+            <label>
+                <input id="V3" type="radio" name="horas" value="30" onclick="CalcularCosto()"> 30 horas
+            </label><br>
+
+            <p>Costo:</p>
+            <input id="CostoT" class="input2" type="number" name="costo"><br>
+
+            <button class="B2" type="submit">ENVIAR</button>
+        </form>
+
+        <h4 id="error-message" class="hidden"></h4>
+    </div>
+</body>
+</html>

@@ -1,0 +1,238 @@
+.Body0{
+    background-color: rgb(49, 175, 163);
+}
+.Container {
+    background-color: rgb(227, 211, 189);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 170px;
+    box-shadow: 5px 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    margin-left: 10px;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input1 {
+    margin-left: 20px;
+    width: 300px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px;
+}
+
+.B1 {
+    margin-left: 30px;
+    margin-top: 50px;
+    height: 45px;
+    width: 290px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: rgb(236, 66, 213);
+    box-shadow: 5px 5px;
+}
+
+.B1:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+@media (max-width: 768px) {
+    .Container {
+        width: 90%;
+        margin-top: 100px;
+        height: auto;
+        padding: 20px;
+    }
+    input {
+        width: 80%;
+        margin-left: 5%;
+    }
+    .B1 {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .error {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .Container {
+        width: 90%;
+        margin-top: 50px;
+        height: auto;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    input {
+        width: 95%;
+        margin-left: 0;
+    }
+    .B1 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .error {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.Body2{
+    background-color: rgb(114, 208, 164);
+}
+.Formulario {
+    border: 2px solid black;
+    background-color: rgb(43, 108, 148);
+    width: 450px;
+    margin-left: 600px;
+    margin-top: 50px;
+    padding: 20px; 
+    box-shadow: 5px 5px ;
+    border-radius: 8px;
+}
+
+.Formu {
+    text-align: center;
+}
+
+p {
+    margin-left: 25px;
+}
+
+.input2 {
+    margin-left: 25px;
+    height: 25px;
+    width: 250px;
+    border-radius: 8px;
+}
+
+.hidden2{
+    display: none;
+}
+.error2 {
+    color: red;
+    font-size: 14px;
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 30px;
+}
+.B2{
+    margin-left: 190px;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 8px;
+}
+.B2:hover{
+    cursor: pointer;
+}
+h5{
+    margin-top: -23px;
+    margin-left: 54px;
+}
+
+/*Cuestionario*/
+
+.miForm{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 800px;
+    height: 780px;
+    margin-left: 440px;
+    margin-top: 50px;
+    justify-content: center;
+    box-shadow: 5px 5px;
+    background-color: rgb(205, 111, 227);
+}
+.Pregunta{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.B3{
+    margin-left: 330px;
+    margin-top:30px;
+    height: 30px;
+    border-radius: 8px;
+}
+.B3:hover{
+    cursor: pointer;
+}
+.Cuadro{
+    background-color: aliceblue;
+    border: 2px solid black;
+    box-shadow: 5px 5px;
+    margin-top: 20px;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    align-content: center;
+    margin-left: 730px;
+    margin-left: 970px;
+    margin-top: -130px;
+    border-radius: 8px;
+}
+.Cuadro1{
+    background-color: aliceblue;
+    margin-left: 970px;
+    width: 200px;
+    margin-top: 10px;
+    height: 35px;
+    text-align: center;
+    align-content: center; 
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 5px 5px;
+}
+.Body1{
+    background-color: aquamarine;
+}.Txt{
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 5px 5px;
+    background-color: cadetblue;
+    width:270px;
+    height: 150px;
+    text-align: center;
+    align-content: center;
+    margin-top: 100px;
+    margin-left: 80px;
+    position: absolute;
+}
+.bien{
+    color: green;
+}
+.mal{
+    color:red;
+}
